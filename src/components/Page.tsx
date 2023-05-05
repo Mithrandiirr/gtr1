@@ -48,7 +48,7 @@ export const Page: React.FC<PageProps> = ({ data }) => {
               <h3 className="text-xl font-bold uppercase table:text-base">
                 {c._type}
               </h3>
-              <div className="flex flex-row gap-16 flex-wrap">
+              <div className="flex flex-row gap-16 flex-wrap     justify-center ">
                 {c.data?.map((d: any) => (
                   <a
                     key={d._key}
