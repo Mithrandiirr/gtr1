@@ -55,7 +55,7 @@ export const Page: React.FC<PageProps> = ({ data }) => {
                     href={getUrlFromId(d.type.asset._ref)}
                     className="flex flex-col gap-2 items-center table:items-center table:text-center"
                   >
-                    <Image src={Png} alt="Png" width={64} />
+                    <Image src={Png} alt="Png" width={64} priority />
                     <h2 className="text-xl table:text-base">{d.name}</h2>
                   </a>
                 ))}
