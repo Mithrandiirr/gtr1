@@ -79,7 +79,9 @@ export const Main: React.FC<MainProps> = ({ data }) => {
                 </clipPath>
               </defs>
             </svg>
-            <h2 className="text-lg font-medium">{m.title}</h2>
+            <h2 className="text-lg font-medium small:flex small:flex-1">
+              {m.title}
+            </h2>
           </div>
           {/* <div className="flex flex-col">
             {m.content?.map((l: any) => (
