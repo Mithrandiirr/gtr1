@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Png from "../components/png-icon.png";
+import Png from "../components/img.svg";
 import Image from "next/image";
 import { buildFileUrl } from "@sanity/asset-utils";
 interface PageProps {
