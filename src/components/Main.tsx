@@ -7,7 +7,7 @@ interface MainProps {
 
 export const Main: React.FC<MainProps> = ({ data }) => {
   return (
-    <div className="grid grid-cols-4 gap-8 mid:grid-cols-3 table:grid-cols-2 phony:grid-cols-1 items-center">
+    <div className="grid grid-cols-3 gap-8  table:grid-cols-2 phony:grid-cols-1 items-center">
       {data.map((m: any) => (
         <Link
           href={`/${m.slug.current}`}
