@@ -1,0 +1,3 @@
+[submodule "sanityapp"]
+	path = sanityapp
+	url = https://github.com/Mithrandiirr/gtr1.git
